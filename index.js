@@ -1,4 +1,4 @@
-module.exports.onWindow = browserWindow => browserWindow.setVibrancy("ultradark");
+module.exports.onWindow = browserWindow => browserWindow.setVibrancy("ultra-dark");
 
 const foregroundColor = "#fff";
 const backgroundColor = "rgba(0, 0, 0, .65)";
