@@ -1,18 +1,19 @@
 module.exports.onWindow = browserWindow => browserWindow.setVibrancy("ultra-dark");
 
 const foregroundColor = "#fff";
-const backgroundColor = "rgba(0, 0, 0, .65)";
+const backgroundColor = "rgba(0, 0, 0, 0.5)";
 const overlap = "rgba(0, 0, 0, .15)";
-const red = "#FF3B30";
-const green = "#4CD964";
-const yellow = "#FFCC00";
-const blue = "#0095FF";
-const magenta = "#FF2D55";
-const cyan = "#5AC8FA";
+const red = '#ff5c57';
+const green = '#5af78e';
+const yellow = '#f3f99d';
+const blue = '#57c7ff';
+const magenta = '#ff6ac1';
+const cyan = '#9aedfe';
 const white = "#FFFFFF";
+
 const defaultConfig = {
   fontFamily: '"SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace',
-  fontSize: 12
+  fontSize: 14
 }
 
 // Check if Verminal configuration exists in ~/.hyper.js. If not, fall back to default configuration.
